@@ -1,0 +1,14 @@
+/**
+ * Margin-left transforms the value to margin-right for RTL
+ *
+ * @param {string} $val
+ */
+
+@mixin margin-left($val) {
+
+	@if $direction == rtl {
+		margin-right: $val;
+	} @else {
+		margin-left: $val;
+	}
+}
