@@ -1,0 +1,7 @@
+@function translate-x($val) {
+	@if($direction == rtl) {
+		@return translateX($val * -1);
+	} @else {
+		@return translateX($val);
+	}
+}

@@ -1,0 +1,5 @@
+@function flip() {
+	@if($direction == rtl) {
+		@return scaleX(-1);
+	}
+}
