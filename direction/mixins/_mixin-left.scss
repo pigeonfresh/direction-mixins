@@ -1,0 +1,14 @@
+/**
+ * Left swaps the left position to right for RTL
+ *
+ * @param {string} $val
+ */
+
+@mixin left($val) {
+
+	@if($direction == rtl) {
+		right: $val;
+	} @else {
+		left: $val;
+	}
+}
