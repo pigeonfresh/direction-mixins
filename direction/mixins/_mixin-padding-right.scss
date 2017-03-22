@@ -1,0 +1,14 @@
+/**
+ * Padding-right transforms the value to padding-left for RTL
+ *
+ * @param {string} $val
+ */
+
+@mixin padding-right($val) {
+
+	@if $direction == rtl {
+		padding-left: $val;
+	} @else {
+		padding-right: $val;
+	}
+}
