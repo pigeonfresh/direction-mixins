@@ -3,4 +3,4 @@
 *.log
 node_modules/
 test/
-
+.sass-cache/
