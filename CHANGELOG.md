@@ -10,4 +10,8 @@
 
 ### 1.1.0 (March 23 2017)
 
-* Add function for rotation
+* Added function for rotation
+
+### 1.2.0 (March 23 2017)
+
+* Changed folder structure
