@@ -110,6 +110,8 @@ This will use ```transform: scaleX(-1)``` in order to flip the element on the x-
 - [border-width](./direction/mixins/_mixin-border-width.scss)
 - [border-color](./direction/mixins/_mixin-border-color.scss)
 - [text-align](./direction/mixins/_mixin-text-align.scss)
+- [float](./direction/function/_mixin-float.scss)
+- [clear](./direction/function/_mixin-clear.scss)
 - [flip](./direction/function/_function-flip.scss)
 - [translate-x](./direction/function/_function-translate-x.scss)
 - [translate-xy](./direction/function/_function-translate-xy.scss)
