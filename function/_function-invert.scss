@@ -1,3 +1,9 @@
+/**
+ * Inverts the sign of the given value
+ *
+ * @param {value} $value
+ */
+
 @function invert($value) {
 	@return ($value * -1);
 }

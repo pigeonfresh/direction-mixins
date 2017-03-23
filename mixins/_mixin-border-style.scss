@@ -1,3 +1,9 @@
+/**
+ * Border-width swaps the left and right value for RTL
+ *
+ * @param {list} $list
+ */
+
 @mixin border-style($list) {
 	$listLength: length($list);
 

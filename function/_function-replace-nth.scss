@@ -1,3 +1,8 @@
+/**
+ * Replace-nth replaces a existing value for a given list index inside a list
+ *
+ */
+
 @function replace-nth($list, $index, $value) {
 	$result: null;
 
