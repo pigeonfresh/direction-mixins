@@ -1,0 +1,16 @@
+/**
+ * Translate-xy transforms the X value for RTL
+ *
+ * @param {value} $x
+ * @param {value} $y
+ */
+
+@function translate-xy($x, $y) {
+
+	@if($direction == rtl) {
+		$x: $x * -1;
+		@return translate($x, $y);
+	} @else {
+		@return translate($x, $y);
+	}
+}
