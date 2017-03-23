@@ -15,3 +15,8 @@
 ### 1.2.0 (March 23 2017)
 
 * Changed folder structure
+
+### 1.3.0 (March 23 2017)
+
+* Added mixin for float
+* Added mixin for clear
