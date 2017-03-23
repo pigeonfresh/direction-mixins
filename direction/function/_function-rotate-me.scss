@@ -1,0 +1,14 @@
+/**
+ * Rotate-me transforms the value for RTL
+ *
+ * @param {value} $val
+ */
+
+@function rotate-me($val) {
+
+	@if($direction == rtl) {
+		@return rotate($val * -1);
+	} @else {
+		@return rotate($val);
+	}
+}
