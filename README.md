@@ -4,11 +4,18 @@ Instead of using the traditional declarations you can use mixins that will trans
 
 ## Setup
 
-#### Step 1
-Create a partial which will contain all your styling and import as you were creating a stylesheet for one direction (e.g `_screen.scss`).
+### Step 1
+Download them or add them to your project with npm:
 
+```
+npm install --save direction-mixins
+```
 
 #### Step 2
+Create a partial which will contain all your styling and import the mixins as you were creating a stylesheet for one direction (e.g `_screen.scss`).
+
+
+#### Step 3
 Create to files (e.g. `screen-ltr.scss` and `screen-rtl.scss` and set the direction variable set to the correct direction. Your file will look something like this:
 
 ```
@@ -16,7 +23,7 @@ $direction: rtl;
 @import "screen";
 ```
 
-#### Step 3
+#### Step 4
 Start using mixins and functions for your declarations that depend on horizontal position (e.g. margins, paddings, left and right positions. Don't forget to add the direction variable to body.
 
 ```
