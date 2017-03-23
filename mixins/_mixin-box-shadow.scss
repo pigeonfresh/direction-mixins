@@ -1,0 +1,20 @@
+/**
+ * Box-shadow flips the x offset for RTL
+ *
+ * @param {list} $list
+ */
+
+@mixin box-shadow($list) {
+	$listLength: length($list);
+
+	@if $direction == rtl {
+
+		@if $listLength == 6 and type-of(nth($list, 2) == number) {
+			$list: replace-nth($list, 2, invert(nth($list, 2)));
+		} @else if $listLength < 6 and type-of(nth($list,1) == number) {
+			$list: replace-nth($list, 1, invert(nth($list, 1)));
+		}
+	}
+
+	box-shadow: $list;
+}

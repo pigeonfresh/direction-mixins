@@ -1,0 +1,4 @@
+@function invert($value) {
+	@return ($value * -1);
+}
+
