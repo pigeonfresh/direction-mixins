@@ -1,0 +1,29 @@
+{
+  "name": "direction-mixins",
+  "version": "1.0.0",
+  "description": "A set of mixins and functions to handle values for both RTL and LTR layouts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pigeonfresh/direction-mixins.git"
+  },
+  "keywords": [
+    "multilingual",
+    "mixins",
+    "sass",
+    "scss",
+    "mixins",
+    "direction",
+    "rtl",
+    "ltr",
+    "layout"
+  ],
+  "author": "pigeonfresh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pigeonfresh/direction-mixins/issues"
+  },
+  "homepage": "https://github.com/pigeonfresh/direction-mixins#readme"
+}
