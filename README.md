@@ -114,3 +114,10 @@ This will use ```transform: scaleX(-1)``` in order to flip the element on the x-
 - [translate-x](./direction/function/_function-translate-x.scss)
 - [translate-xy](./direction/function/_function-translate-xy.scss)
 - [rotate-me](./direction/function/_function-rotate-me.scss)
+
+## To-do
+- box-shadow
+- scale
+- translate3D
+- transform-origin
+- text-shadow
