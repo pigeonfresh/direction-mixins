@@ -119,7 +119,6 @@ This will use ```transform: scaleX(-1)``` in order to flip the element on the x-
 
 ## To-do
 - box-shadow
-- scale
 - translate3D
 - transform-origin
 - text-shadow
