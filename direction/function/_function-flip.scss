@@ -1,3 +1,7 @@
+/**
+ * Flip flips an element on the x-axis
+ */
+
 @function flip() {
 	@if($direction == rtl) {
 		@return scaleX(-1);

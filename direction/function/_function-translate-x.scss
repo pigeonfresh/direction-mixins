@@ -1,3 +1,9 @@
+/**
+ * Translate-x transforms the X value for RTL
+ *
+ * @param {value} $val
+ */
+
 @function translate-x($val) {
 
 	@if($direction == rtl) {
