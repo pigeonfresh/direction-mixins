@@ -1,0 +1,16 @@
+/**
+ * Clear swaps the value for RTL
+ *
+ * @param {value} $val
+ */
+
+@mixin clear($val) {
+
+	@if($direction == rtl and $val == left) {
+		clear: right;
+	} @elseif($direction == rtl and $val == right) {
+		clear: left;
+	} @else {
+		clear: $val;
+	}
+}
