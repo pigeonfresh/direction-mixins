@@ -2,6 +2,31 @@
 Direction-mixins is a collection of mixins and functions you can use to have two separate css files but only have to write (and thus maintain) one file.
 Instead of using the traditional declarations you can use mixins that will transform your values based on a variable.
 
+## Setup
+
+#### Step 1
+Create a partial which will contain all your styling and import as you were creating a stylesheet for one direction (e.g `_screen.scss`).
+
+
+#### Step 2
+Create to files (e.g. `screen-ltr.scss` and `screen-rtl.scss` and set the direction variable set to the correct direction. Your file will look something like this:
+
+```
+$direction: rtl;
+@import "screen";
+```
+
+#### Step 3
+Start using mixins and functions for your declarations that depend on horizontal position (e.g. margins, paddings, left and right positions. Don't forget to add the direction variable to body.
+
+```
+body {
+	direction: $direction;
+}
+```
+
+
+
 ## Basic examples for declarations
 This package contains a set of mixins that can be used for both short-hand and single-hand properties. Let's say you want to have a margin on the left of 20 pixels:
 
@@ -12,7 +37,7 @@ This package contains a set of mixins that can be used for both short-hand and s
 @include margin(0 0 0 20px);
 ```
 
-This will be transformed to
+This will be transformed to:
 
 ```
 margin: 0 0 0 20px; /* LTR direction */
@@ -42,7 +67,6 @@ margin-right: 20px; /* LTR direction */
 margin-left: 20px; /* RTL direction */
 ```
 
-
 ## Basic examples of transform values
 In order to add direction-aware transform you can use functions:
 
@@ -70,4 +94,22 @@ If you need to flip an element (e.g. an icon used in breadcrumbs) you can add th
 transform: flip();
 ```
 
-This will use ```transform: scaleX(-1)``` in order to flip the element on the x-axis. *Please note that this might cause conflicts when using scale within the same declaration.*
+This will use ```transform: scaleX(-1)``` in order to flip the element on the x-axis. 
+*Please note that this might cause conflicts when using scale within the same declaration.*
+
+## List of Mixins and Functions
+
+- [margin](./direction/mixins/_mixin-margin.scss)
+- [margin-left](./direction/mixins/_mixin-margin-left.scss)
+- [margin-right](./direction/mixins/_mixin-margin-right.scss)
+- [padding](./direction/mixins/_mixin-padding.scss)
+- [padding-left](./direction/mixins/_mixin-padding-left.scss)
+- [padding-right](./direction/mixins/_mixin-padding-right.scss)
+- [right](./direction/mixins/_mixin-right.scss)
+- [left](./direction/mixins/_mixin-left.scss)
+- [border-width](./direction/mixins/_mixin-border-width.scss)
+- [border-color](./direction/mixins/_mixin-border-color.scss)
+- [text-align](./direction/mixins/_mixin-text-align.scss)
+- [flip](./direction/function/_function-flip.scss)
+- [translate-x](./direction/function/_function-translate-x.scss)
+- [translate-xy](./direction/function/_function-translate-xy.scss)
