@@ -1,0 +1,20 @@
+/**
+ * Border-width swaps the left and right value for RTL
+ *
+ * @param {list} $list
+ */
+
+@mixin border-style($list) {
+	$listLength: length($list);
+
+	@if $listLength == 4 and $direction == rtl {
+		$top: nth($list, 1);
+		$left: nth($list, 2);
+		$bottom: nth($list, 3);
+		$right: nth($list, 4);
+		$list: $top $right $bottom $left;
+		border-style: $list;
+	} @else {
+		border-style: $list;
+	}
+}
