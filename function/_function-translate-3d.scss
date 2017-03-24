@@ -1,0 +1,16 @@
+/**
+ * Translate-3d transforms the X value for RTL
+ *
+ * @param {value} $x
+ * @param {value} $y
+ * @param {value} $z
+ */
+
+@function translate-xy($x, $y, $z) {
+
+	@if ($direction == rtl) {
+		$x: invert($x);
+	}
+
+	@return translate($x, $y, $z);
+}
