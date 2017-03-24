@@ -1,4 +1,4 @@
-# Changes to seng-scss
+# Changes to direction-mixins
 
 ### 1.0.0 (March 23 2017)
 

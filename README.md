@@ -114,18 +114,19 @@ This will use ```transform: scaleX(-1)``` in order to flip the element on the x-
 - [padding-right](./direction/mixins/_mixin-padding-right.scss)
 - [right](./direction/mixins/_mixin-right.scss)
 - [left](./direction/mixins/_mixin-left.scss)
-- [border-width](./direction/mixins/_mixin-border-width.scss)
 - [border-color](./direction/mixins/_mixin-border-color.scss)
+- [border-width](./direction/mixins/_mixin-border-width.scss)
+- [border-style](./direction/mixins/_mixin-border-style.scss)
+- [box-shadow](./direction/mixins/_mixin-box-shadow.scss)
 - [text-align](./direction/mixins/_mixin-text-align.scss)
-- [float](./direction/function/_mixin-float.scss)
+- [text-shadow](./direction/mixins/_mixin-text-shadow.scss)
 - [clear](./direction/function/_mixin-clear.scss)
+- [float](./direction/function/_mixin-float.scss)
 - [flip](./direction/function/_function-flip.scss)
 - [translate-x](./direction/function/_function-translate-x.scss)
 - [translate-xy](./direction/function/_function-translate-xy.scss)
 - [rotate-me](./direction/function/_function-rotate-me.scss)
 
 ## To-do
-- box-shadow
 - translate3D
 - transform-origin
-- text-shadow
