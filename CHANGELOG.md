@@ -20,3 +20,7 @@
 
 * Added mixin for float
 * Added mixin for clear
+
+### 1.3.3 (March 24 2017)
+
+* Fix typo

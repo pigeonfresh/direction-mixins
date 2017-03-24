@@ -16,7 +16,7 @@ Create a partial which will contain all your styling and import the mixins as yo
 
 
 #### Step 3
-Create to files (e.g. `screen-ltr.scss` and `screen-rtl.scss` and set the direction variable set to the correct direction. Your file will look something like this:
+Create two files (e.g. `screen-ltr.scss` and `screen-rtl.scss` and set the direction variable to the correct direction. Your file will look something like this:
 
 ```
 $direction: rtl;
