@@ -24,3 +24,10 @@
 ### 1.3.3 (March 24 2017)
 
 * Fix typo
+
+### 1.4.0 (March 24 2017)
+
+* Added Base functions
+* Added mixins for border-style
+* Added mixins for box-shadow
+* Added mixins for text-shadow
