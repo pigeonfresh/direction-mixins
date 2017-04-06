@@ -124,8 +124,8 @@ This will use ```transform: scaleX(-1)``` in order to flip the element on the x-
 - [flip](./function/_function-flip.scss)
 - [translate-x](./function/_function-translate-x.scss)
 - [translate-xy](./function/_function-translate-xy.scss)
+- [translate-3d](./function/_function-translate-3d.scss)
 - [rotate-me](./function/_function-rotate-me.scss)
 
 ## To-do
-- translate3D
 - transform-origin
