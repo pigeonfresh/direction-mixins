@@ -16,7 +16,7 @@ Create a partial which will contain all your styling and import the mixins as yo
 
 
 #### Step 3
-Create to files (e.g. `screen-ltr.scss` and `screen-rtl.scss` and set the direction variable set to the correct direction. Your file will look something like this:
+Create two files (e.g. `screen-ltr.scss` and `screen-rtl.scss` and set the direction variable to the correct direction. Your file will look something like this:
 
 ```
 $direction: rtl;
@@ -105,7 +105,6 @@ This will use ```transform: scaleX(-1)``` in order to flip the element on the x-
 *Please note that this might cause conflicts when using scale within the same declaration.*
 
 ## List of Mixins and Functions
-
 - [margin](./direction/mixins/_mixin-margin.scss)
 - [margin-left](./direction/mixins/_mixin-margin-left.scss)
 - [margin-right](./direction/mixins/_mixin-margin-right.scss)

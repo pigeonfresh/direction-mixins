@@ -20,3 +20,18 @@
 
 * Added mixin for float
 * Added mixin for clear
+
+### 1.3.3 (March 24 2017)
+
+* Fix typo
+
+### 1.4.0 (March 24 2017)
+
+* Added Base functions
+* Added mixins for border-style
+* Added mixins for box-shadow
+* Added mixins for text-shadow
+
+### 1.4.1 (April 6 2017)
+
+* Added translate3D function
