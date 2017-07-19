@@ -8,10 +8,9 @@
 
 @function translate-xy($x, $y, $z) {
 
-	@if($direction == rtl) {
-		$x: $x * -1;
-		@return translate($x, $y, $z);
-	} @else {
-		@return translate($x, $y, $z);
+	@if ($direction == rtl) {
+		$x: invert($x);
 	}
+
+	@return translate($x, $y, $z);
 }

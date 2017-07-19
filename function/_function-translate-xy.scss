@@ -9,8 +9,7 @@
 
 	@if($direction == rtl) {
 		$x: $x * -1;
-		@return translate($x, $y);
-	} @else {
-		@return translate($x, $y);
 	}
+
+	@return translate($x, $y);
 }

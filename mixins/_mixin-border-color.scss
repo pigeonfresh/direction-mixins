@@ -15,9 +15,7 @@
 		$right: nth($list, 4);
 
 		$list: $top $right $bottom $left;
-
-		border-color: $list;
-	} @else {
-		border-color: $list;
 	}
+
+	border-color: $list;
 }
