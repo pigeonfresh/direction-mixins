@@ -105,27 +105,31 @@ This will use ```transform: scaleX(-1)``` in order to flip the element on the x-
 *Please note that this might cause conflicts when using scale within the same declaration.*
 
 ## List of Mixins and Functions
-- [margin](./direction/mixins/_mixin-margin.scss)
-- [margin-left](./direction/mixins/_mixin-margin-left.scss)
-- [margin-right](./direction/mixins/_mixin-margin-right.scss)
-- [padding](./direction/mixins/_mixin-padding.scss)
-- [padding-left](./direction/mixins/_mixin-padding-left.scss)
-- [padding-right](./direction/mixins/_mixin-padding-right.scss)
-- [right](./direction/mixins/_mixin-right.scss)
-- [left](./direction/mixins/_mixin-left.scss)
-- [border-color](./direction/mixins/_mixin-border-color.scss)
-- [border-width](./direction/mixins/_mixin-border-width.scss)
-- [border-style](./direction/mixins/_mixin-border-style.scss)
-- [box-shadow](./direction/mixins/_mixin-box-shadow.scss)
-- [text-align](./direction/mixins/_mixin-text-align.scss)
-- [text-shadow](./direction/mixins/_mixin-text-shadow.scss)
-- [clear](./direction/function/_mixin-clear.scss)
-- [float](./direction/function/_mixin-float.scss)
-- [flip](./direction/function/_function-flip.scss)
-- [translate-x](./direction/function/_function-translate-x.scss)
-- [translate-xy](./direction/function/_function-translate-xy.scss)
-- [translate-3d](./direction/function/_function-translate-3d.scss)
-- [rotate-me](./direction/function/_function-rotate-me.scss)
+- [margin](./mixins/_mixin-margin.scss)
+- [margin-left](./mixins/_mixin-margin-left.scss)
+- [margin-right](./mixins/_mixin-margin-right.scss)
+- [padding](./mixins/_mixin-padding.scss)
+- [padding-left](./mixins/_mixin-padding-left.scss)
+- [padding-right](./mixins/_mixin-padding-right.scss)
+- [right](./mixins/_mixin-right.scss)
+- [left](./mixins/_mixin-left.scss)
+- [border-color](./mixins/_mixin-border-color.scss)
+- [border-width](./mixins/_mixin-border-width.scss)
+- [border-style](./mixins/_mixin-border-style.scss)
+- [box-shadow](./mixins/_mixin-box-shadow.scss)
+- [text-align](./mixins/_mixin-text-align.scss)
+- [text-shadow](./mixins/_mixin-text-shadow.scss)
+- [clear](./function/_mixin-clear.scss)
+- [float](./function/_mixin-float.scss)
+- [flip](./function/_function-flip.scss)
+- [translate-x](./function/_function-translate-x.scss)
+- [translate-xy](./function/_function-translate-xy.scss)
+- [translate-3d](./function/_function-translate-3d.scss)
+- [rotate-me](./function/_function-rotate-me.scss)
 
 ## To-do
 - transform-origin
+
+
+
+
