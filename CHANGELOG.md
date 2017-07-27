@@ -35,3 +35,7 @@
 ### 1.4.1 (April 6 2017)
 
 * Added translate3D function
+
+### 1.4.2 (July 196 2017)
+
+* Added Main
