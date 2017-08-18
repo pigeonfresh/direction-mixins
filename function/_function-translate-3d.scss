@@ -6,7 +6,7 @@
  * @param {value} $z
  */
 
-@function translate-xy($x, $y, $z) {
+@function translate-3d($x, $y, $z) {
 
 	@if ($direction == rtl) {
 		$x: invert($x);
