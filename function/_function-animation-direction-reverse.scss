@@ -1,0 +1,11 @@
+/**
+ * Return animation direction reverse or normal based on the direction
+ */
+
+@function animation-direction-normal() {
+  @if($direction == rtl) {
+    @return normal;
+  } @else {
+    @return reverse;
+  }
+}
