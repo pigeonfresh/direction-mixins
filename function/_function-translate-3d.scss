@@ -12,5 +12,5 @@
 		$x: invert($x);
 	}
 
-	@return translate($x, $y, $z);
+	@return translate3d($x, $y, $z);
 }
