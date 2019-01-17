@@ -36,6 +36,17 @@
 
 * Added translate3D function
 
-### 1.4.2 (July 196 2017)
+### 1.4.2 (July 19 2017)
 
 * Added Main
+
+### 1.4.5 (January 14 2019)
+
+* Fixed return of faulty translate property
+* Add two functions two reverse/normal the animation direction
+
+### 1.4.6 (January 17 2019)
+
+* Added editorconfig
+* Replaced tabs with spaces
+* Add return value for flip function for LTR
