@@ -6,13 +6,13 @@
 
 @mixin text-align($val) {
 
-	@if($direction == rtl and $val == right) {
-		text-align: left;
-	}
-	@elseif($direction == rtl and $val == left) {
-		text-align: right;
-	}
-	@else {
-		text-align: $val;
-	}
+  @if($direction == rtl and $val == right) {
+    text-align: left;
+  }
+  @elseif($direction == rtl and $val == left) {
+    text-align: right;
+  }
+  @else {
+    text-align: $val;
+  }
 }

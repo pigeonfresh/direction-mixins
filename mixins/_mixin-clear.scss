@@ -6,11 +6,11 @@
 
 @mixin clear($val) {
 
-	@if($direction == rtl and $val == left) {
-		clear: right;
-	} @elseif($direction == rtl and $val == right) {
-		clear: left;
-	} @else {
-		clear: $val;
-	}
+  @if($direction == rtl and $val == left) {
+    clear: right;
+  } @elseif($direction == rtl and $val == right) {
+    clear: left;
+  } @else {
+    clear: $val;
+  }
 }

@@ -6,9 +6,9 @@
 
 @mixin margin-right($val) {
 
-	@if $direction == rtl {
-		margin-left: $val;
-	} @else {
-		margin-right: $val;
-	}
+  @if $direction == rtl {
+    margin-left: $val;
+  } @else {
+    margin-right: $val;
+  }
 }

@@ -6,9 +6,9 @@
 
 @mixin padding-left($val) {
 
-	@if $direction == rtl {
-		padding-right: $val;
-	} @else {
-		padding-left: $val;
-	}
+  @if $direction == rtl {
+    padding-right: $val;
+  } @else {
+    padding-left: $val;
+  }
 }

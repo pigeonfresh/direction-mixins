@@ -6,16 +6,16 @@
 
 @mixin text-shadow($list) {
 
-	@if $direction == rtl {
+  @if $direction == rtl {
 
-		@if type-of(nth($list, 1)) == color {
-			$flipX: invert(nth($list, 2));
-			$list: replace-nth($list, 2, $flipX);
-		} @else {
-			$flipX: invert(nth($list, 1));
-			$list: replace-nth($list, 1, $flipX);
-		}
-	}
+    @if type-of(nth($list, 1)) == color {
+      $flipX: invert(nth($list, 2));
+      $list: replace-nth($list, 2, $flipX);
+    } @else {
+      $flipX: invert(nth($list, 1));
+      $list: replace-nth($list, 1, $flipX);
+    }
+  }
 
-	text-shadow: $list;
+  text-shadow: $list;
 }

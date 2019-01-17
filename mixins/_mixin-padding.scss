@@ -5,17 +5,17 @@
  */
 
 @mixin padding($list) {
-	$listLength: length($list);
+  $listLength: length($list);
 
-	@if $listLength == 4 and $direction == rtl {
+  @if $listLength == 4 and $direction == rtl {
 
-		$top: nth($list, 1);
-		$left: nth($list, 2);
-		$bottom: nth($list, 3);
-		$right: nth($list, 4);
+    $top: nth($list, 1);
+    $left: nth($list, 2);
+    $bottom: nth($list, 3);
+    $right: nth($list, 4);
 
-		$list: $top $right $bottom $left;
-	}
+    $list: $top $right $bottom $left;
+  }
 
-	padding: $list;
+  padding: $list;
 }

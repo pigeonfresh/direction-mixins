@@ -6,9 +6,9 @@
 
 @mixin right($val) {
 
-	@if($direction == rtl) {
-		left: $val;
-	} @else {
-		right: $val;
-	}
+  @if($direction == rtl) {
+    left: $val;
+  } @else {
+    right: $val;
+  }
 }

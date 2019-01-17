@@ -5,10 +5,9 @@
  */
 
 @function rotate-me($val) {
-
-	@if($direction == rtl) {
-		@return rotate($val * -1);
-	} @else {
-		@return rotate($val);
-	}
+  @if($direction == rtl) {
+    @return rotate($val * -1);
+  } @else {
+    @return rotate($val);
+  }
 }

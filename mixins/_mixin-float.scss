@@ -6,11 +6,11 @@
 
 @mixin float($val) {
 
-	@if($direction == rtl and $val == left) {
-		float: right;
-	} @elseif($direction == rtl and $val == right) {
-		float: left;
-	} @else {
-		float: $val;
-	}
+  @if($direction == rtl and $val == left) {
+    float: right;
+  } @elseif($direction == rtl and $val == right) {
+    float: left;
+  } @else {
+    float: $val;
+  }
 }
