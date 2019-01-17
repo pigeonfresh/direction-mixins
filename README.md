@@ -101,7 +101,7 @@ If you need to flip an element (e.g. an icon used in breadcrumbs) you can add th
 transform: flip();
 ```
 
-This will use ```transform: scaleX(-1)``` in order to flip the element on the x-axis. 
+This will use ```transform: scaleX(-1)``` in order to flip the element on the x-axis.
 *Please note that this might cause conflicts when using scale within the same declaration.*
 
 ## List of Mixins and Functions
@@ -122,6 +122,8 @@ This will use ```transform: scaleX(-1)``` in order to flip the element on the x-
 - [clear](./function/_mixin-clear.scss)
 - [float](./function/_mixin-float.scss)
 - [flip](./function/_function-flip.scss)
+- [animation-direction-normal](./function/_function-animation-direction-normal.scss)
+- [animation-direction-reverse](./function/_function-animation-direction-reverse.scss)
 - [translate-x](./function/_function-translate-x.scss)
 - [translate-xy](./function/_function-translate-xy.scss)
 - [translate-3d](./function/_function-translate-3d.scss)
