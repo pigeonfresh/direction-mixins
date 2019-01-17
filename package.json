@@ -1,6 +1,6 @@
 {
   "name": "direction-mixins",
-  "version": "1.4.2",
+  "version": "1.4.5",
   "description": "A set of mixins and functions to handle values for both RTL and LTR layouts",
   "main": "_direction-mixins.scss",
   "scripts": {
