@@ -116,6 +116,7 @@ This will use ```transform: scaleX(-1)``` in order to flip the element on the x-
 - [border-color](./mixins/_mixin-border-color.scss)
 - [border-width](./mixins/_mixin-border-width.scss)
 - [border-style](./mixins/_mixin-border-style.scss)
+- [border-radius](./mixins/_mixin-border-radius.scss)
 - [box-shadow](./mixins/_mixin-box-shadow.scss)
 - [text-align](./mixins/_mixin-text-align.scss)
 - [text-shadow](./mixins/_mixin-text-shadow.scss)

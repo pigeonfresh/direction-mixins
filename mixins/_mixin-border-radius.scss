@@ -1,0 +1,21 @@
+/**
+ * Border-radius swaps the top-left, bottom-left, top-right and bottom-right value for RTL
+ *
+ * @param {list} $list
+ */
+
+@mixin border-radius($list) {
+  $listLength: length($list);
+
+  @if $listLength == 4 and $direction == rtl {
+
+    $top-left: nth($list, 1);
+    $top-right: nth($list, 2);
+    $bottom-right: nth($list, 3);
+    $bottom-left: nth($list, 4);
+
+    $list: $top-right $top-left $bottom-left $bottom-right;
+  }
+
+  border-radius: $list;
+}
