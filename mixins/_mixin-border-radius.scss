@@ -1,5 +1,5 @@
 /**
- * Border-radius swaps the left and right value for RTL
+ * Border-radius swaps the top-left, bottom-left, top-right and bottom-right value for RTL
  *
  * @param {list} $list
  */
@@ -9,12 +9,12 @@
 
   @if $listLength == 4 and $direction == rtl {
 
-    $top: nth($list, 1);
-    $left: nth($list, 2);
-    $bottom: nth($list, 3);
-    $right: nth($list, 4);
+    $top-left: nth($list, 1);
+    $top-right: nth($list, 2);
+    $bottom-right: nth($list, 3);
+    $bottom-left: nth($list, 4);
 
-    $list: $top $right $bottom $left;
+    $list: $top-right $top-left $bottom-left $bottom-right;
   }
 
   border-radius: $list;
